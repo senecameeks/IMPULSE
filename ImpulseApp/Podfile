@@ -1,0 +1,6 @@
+platform :ios, '8.1'
+target "ImpulseApp" do
+pod 'Firebase'
+end
+
+pod 'GoogleSignIn'

@@ -14,6 +14,7 @@
 		4455871521FCD09900402136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4455871321FCD09900402136 /* LaunchScreen.storyboard */; };
 		4455872021FCD09900402136 /* ImpulseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455871F21FCD09900402136 /* ImpulseAppTests.swift */; };
 		4455872B21FCD09900402136 /* ImpulseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455872A21FCD09900402136 /* ImpulseAppUITests.swift */; };
+		F54412379587610B10C5AA2D /* libPods-ImpulseApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD7112229CAF414134BB37 /* libPods-ImpulseApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30A0CFB6BE21409C70F28206 /* Pods-ImpulseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpulseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImpulseApp/Pods-ImpulseApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4455870721FCD09600402136 /* ImpulseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpulseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4455870A21FCD09600402136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4455870C21FCD09600402136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		4455872A21FCD09900402136 /* ImpulseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseAppUITests.swift; sourceTree = "<group>"; };
 		4455872C21FCD09900402136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4455873821FCD19C00402136 /* ImpulseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImpulseApp.entitlements; sourceTree = "<group>"; };
+		6CFD7112229CAF414134BB37 /* libPods-ImpulseApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImpulseApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		956B46CE81D40DC7A3899FA6 /* Pods-ImpulseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpulseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImpulseApp/Pods-ImpulseApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54412379587610B10C5AA2D /* libPods-ImpulseApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C00E6F7AF8D1D681DB47D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD7112229CAF414134BB37 /* libPods-ImpulseApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		445586FE21FCD09600402136 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +95,8 @@
 				4455871E21FCD09900402136 /* ImpulseAppTests */,
 				4455872921FCD09900402136 /* ImpulseAppUITests */,
 				4455870821FCD09600402136 /* Products */,
+				C83769AB2BCFBFEA5A2453EE /* Pods */,
+				3C00E6F7AF8D1D681DB47D41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +142,15 @@
 			path = ImpulseAppUITests;
 			sourceTree = "<group>";
 		};
+		C83769AB2BCFBFEA5A2453EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A0CFB6BE21409C70F28206 /* Pods-ImpulseApp.debug.xcconfig */,
+				956B46CE81D40DC7A3899FA6 /* Pods-ImpulseApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4455872F21FCD09900402136 /* Build configuration list for PBXNativeTarget "ImpulseApp" */;
 			buildPhases = (
+				4810A0FC101A1926108D51C3 /* [CP] Check Pods Manifest.lock */,
 				4455870321FCD09600402136 /* Sources */,
 				4455870421FCD09600402136 /* Frameworks */,
 				4455870521FCD09600402136 /* Resources */,
+				A82702AD37E5A3CBFF51A113 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +286,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4810A0FC101A1926108D51C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImpulseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82702AD37E5A3CBFF51A113 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImpulseApp/Pods-ImpulseApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImpulseApp/Pods-ImpulseApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4455870321FCD09600402136 /* Sources */ = {
@@ -440,6 +513,7 @@
 		};
 		4455873021FCD09900402136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A0CFB6BE21409C70F28206 /* Pods-ImpulseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ImpulseApp/ImpulseApp.entitlements;
@@ -459,6 +533,7 @@
 		};
 		4455873121FCD09900402136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956B46CE81D40DC7A3899FA6 /* Pods-ImpulseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ImpulseApp/ImpulseApp.entitlements;
