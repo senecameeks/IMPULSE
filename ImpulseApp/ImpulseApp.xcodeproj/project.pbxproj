@@ -14,13 +14,10 @@
 		4455871521FCD09900402136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4455871321FCD09900402136 /* LaunchScreen.storyboard */; };
 		4455872021FCD09900402136 /* ImpulseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455871F21FCD09900402136 /* ImpulseAppTests.swift */; };
 		4455872B21FCD09900402136 /* ImpulseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455872A21FCD09900402136 /* ImpulseAppUITests.swift */; };
-<<<<<<< HEAD
 		4455873D21FCFFB900402136 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455873C21FCFFB900402136 /* UpcomingViewController.swift */; };
 		4455873F21FCFFCF00402136 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455873E21FCFFCF00402136 /* ProfileViewController.swift */; };
 		4455874121FCFFDA00402136 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455874021FCFFDA00402136 /* CalendarViewController.swift */; };
-=======
 		F54412379587610B10C5AA2D /* libPods-ImpulseApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD7112229CAF414134BB37 /* libPods-ImpulseApp.a */; };
->>>>>>> 0b8e6a240979f12db00faf6fb1c7172dd3e539f1
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
