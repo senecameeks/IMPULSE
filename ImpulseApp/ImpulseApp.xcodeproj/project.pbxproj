@@ -53,14 +53,11 @@
 		4455872A21FCD09900402136 /* ImpulseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseAppUITests.swift; sourceTree = "<group>"; };
 		4455872C21FCD09900402136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4455873821FCD19C00402136 /* ImpulseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImpulseApp.entitlements; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		4455873C21FCFFB900402136 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		4455873E21FCFFCF00402136 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4455874021FCFFDA00402136 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-=======
 		6CFD7112229CAF414134BB37 /* libPods-ImpulseApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImpulseApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		956B46CE81D40DC7A3899FA6 /* Pods-ImpulseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpulseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImpulseApp/Pods-ImpulseApp.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> 0b8e6a240979f12db00faf6fb1c7172dd3e539f1
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
