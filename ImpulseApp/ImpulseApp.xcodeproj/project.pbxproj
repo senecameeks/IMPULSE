@@ -14,6 +14,9 @@
 		4455871521FCD09900402136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4455871321FCD09900402136 /* LaunchScreen.storyboard */; };
 		4455872021FCD09900402136 /* ImpulseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455871F21FCD09900402136 /* ImpulseAppTests.swift */; };
 		4455872B21FCD09900402136 /* ImpulseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455872A21FCD09900402136 /* ImpulseAppUITests.swift */; };
+		4455873D21FCFFB900402136 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455873C21FCFFB900402136 /* UpcomingViewController.swift */; };
+		4455873F21FCFFCF00402136 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455873E21FCFFCF00402136 /* ProfileViewController.swift */; };
+		4455874121FCFFDA00402136 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455874021FCFFDA00402136 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		4455872A21FCD09900402136 /* ImpulseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseAppUITests.swift; sourceTree = "<group>"; };
 		4455872C21FCD09900402136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4455873821FCD19C00402136 /* ImpulseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImpulseApp.entitlements; sourceTree = "<group>"; };
+		4455873C21FCFFB900402136 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		4455873E21FCFFCF00402136 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4455874021FCFFDA00402136 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				4455873821FCD19C00402136 /* ImpulseApp.entitlements */,
+				4455873C21FCFFB900402136 /* UpcomingViewController.swift */,
+				4455873E21FCFFCF00402136 /* ProfileViewController.swift */,
+				4455874021FCFFDA00402136 /* CalendarViewController.swift */,
 				4455870A21FCD09600402136 /* AppDelegate.swift */,
 				4455870C21FCD09600402136 /* ViewController.swift */,
 				4455870E21FCD09600402136 /* Main.storyboard */,
@@ -266,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4455874121FCFFDA00402136 /* CalendarViewController.swift in Sources */,
+				4455873D21FCFFB900402136 /* UpcomingViewController.swift in Sources */,
 				4455870D21FCD09600402136 /* ViewController.swift in Sources */,
+				4455873F21FCFFCF00402136 /* ProfileViewController.swift in Sources */,
 				4455870B21FCD09600402136 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
